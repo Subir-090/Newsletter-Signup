@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 630px;
+  border-radius: 20px;
+  height: 400px;
+}
+
+.first-half {
+  width: 350px;
+  padding: 50px 30px 50px 40px;
+}
+
+.first-half h1 {
+  font-weight: 700;
+}
+
+.list div {
+  display: flex;
+  font-size: 11px;
+  align-items: center;
+  margin: 5px 5px 5px 0;
+  font-weight: 400;
+}
+
+.list div img {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.first-half h1 {
+  margin-bottom: 15px;
+}
+
+.desc {
+  font-size: 11px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.first-half form {
+  margin-top: 27px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.first-half form div div label {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.first-half form .user-box {
+  border-radius: 8px;
+  border: 2px solid #e9e8e8;
+  width: 250px;
+  padding: 12px;
+  font-size: 11px;
+  font-weight: 400;
+  outline: none;
+}
+
+.first-half form input[type="submit"] {
+  margin-top: 20px;
+  width: 250px;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 8px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: none;
+}
+
+.first-half form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: hsl(4, 100%, 67%);
+}
+
+#error {
+  color: hsl(4, 100%, 67%);
+  background-color: hsl(4deg 73.31% 93.34%);
+  border: 1px solid hsl(4, 100%, 67%);
+}
+
+.second-half {
+  align-self: center;
+}
+
+.validate {
+  /* display: none; */
+  color: hsl(4, 100%, 67%);
+  position: relative;
+  left: 90px;
+}
+
+.second-half img {
+  width: 280px;
+  height: 380px;
+}
