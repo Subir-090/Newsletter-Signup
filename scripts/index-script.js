@@ -1,4 +1,5 @@
 const form = document.querySelector('form');
+// window.onload
 
 form.addEventListener('submit', (e) => {
     const emailInput = e.target.email.value.trim();

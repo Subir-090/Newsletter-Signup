@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -108,7 +108,7 @@ body {
 }
 
 .validate {
-  /* display: none; */
+  display: none;
   color: hsl(4, 100%, 67%);
   position: relative;
   left: 90px;
@@ -117,4 +117,37 @@ body {
 .second-half img {
   width: 280px;
   height: 380px;
+}
+
+@media (max-width: 650px) {
+  .container {
+    display: block;
+    width: fit-content;
+    margin: 27px auto;
+  }
+  .main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: unset;
+  }
+
+  .first-half {
+    padding: 15px;
+    width: 280px;
+    background-color: white;
+  }
+
+  .desc {
+    width: 280px;
+  }
+
+  .second-half img {
+    position: relative;
+    top: 5px;
+    width: 280px;
+    height: 200px;
+    content: url("../assets/images/illustration-sign-up-mobile.svg");
+  }
 }
