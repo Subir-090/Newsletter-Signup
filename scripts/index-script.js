@@ -1,5 +1,10 @@
+const perfEntries = performance.getEntriesByType("navigation");
+if (perfEntries[0].type === "back_forward") {
+    location.reload();
+}
+
 const form = document.querySelector('form');
-// window.onload
+
 
 form.addEventListener('submit', (e) => {
     const emailInput = e.target.email.value.trim();

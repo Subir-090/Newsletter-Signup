@@ -10,51 +10,78 @@ body {
 }
 
 .container {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
-    width: 380px;
-    height: 380px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 20px;
+  width: 380px;
+  height: 380px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
 }
 
 .main img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 #email {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .main h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .main p {
-    font-size: 13px;
-    margin-bottom: 30px;
-    width: 300px;
+  font-size: 13px;
+  margin-bottom: 30px;
+  width: 300px;
 }
 
 #btn {
-    width: 300px;
-    background-color: hsl(234, 29%, 20%);
-    color: white;
-    padding: 15px;
-    font-size: 13px;
-    border-radius: 12px;
-    border: none;
+  width: 300px;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  padding: 15px;
+  font-size: 13px;
+  border-radius: 12px;
+  border: none;
 }
 
 #btn:hover {
-    cursor: pointer;
-    background-color: hsl(4, 100%, 67%);
+  cursor: pointer;
+  background-color: hsl(4, 100%, 67%);
+}
+
+@media (max-width: 500px) {
+  .main {
+    width: 280px;
+    height: 280px;
+    padding: 20px;
+    margin: auto;
+    object-fit: cover;
+  }
+  .main h1 {
+    font-size: 20px;
+    width: 200px;
+  }
+  .main img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  .main p {
+    font-size: 13px;
+    margin-bottom: 15px;
+    width: 240px;
+  }
+  #btn {
+    width: 236px;
+  }
 }
