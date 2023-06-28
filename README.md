@@ -1,4 +1,4 @@
-#Newsletter Signup Component
+# Newsletter SignUp Component
 
 Hi, this project was solely created for learning process using only HTML, CSS & Js.
 
