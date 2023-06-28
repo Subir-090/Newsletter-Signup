@@ -1,3 +1,5 @@
+#Newsletter Signup Component
+
 Hi, this project was solely created for learning process using only HTML, CSS & Js.
 
 It is a newsletter-signup-component.
